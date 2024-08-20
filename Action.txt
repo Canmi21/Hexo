@@ -1,0 +1,7 @@
+cd D:\Canmi\Hexo\Canmi_blog
+hexo generate
+hexo deploy
+cd public
+git add .
+git commit -m "Deploy blog"
+git push -u origin main
